@@ -1,0 +1,10 @@
+.go-home-button{
+    background-color: grey;
+    color: #000;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0px 20px;
+}

@@ -1,0 +1,71 @@
+.container {
+    padding: 20px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.counter {
+    font-size: 20px;
+}
+
+.button {
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.button.increment {
+    background-color: #4caf50;
+}
+
+.button.decrement {
+    background-color: #f44336;
+}
+
+/* Estilo para o gerenciamento de tarefas */
+.task-manager {
+    margin-top: 40px;
+}
+
+.task-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button.add-task {
+    background-color: #2196f3;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.task-item:hover {
+    background-color: #e0e0e0;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    background-color: #c8e6c9;
+}
