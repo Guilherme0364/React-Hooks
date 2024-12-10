@@ -1,0 +1,14 @@
+.increase-button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.data{
+    font-size: 1.5rem;
+}

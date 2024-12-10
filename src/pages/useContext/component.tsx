@@ -14,7 +14,12 @@ const ToggleComponent = () => {
             }}>
                 <h1>Tema atual: {theme}</h1>
             </div>
-            <button onClick={() => toggleTheme()}>Trocar tema</button>
+            <button  
+                onClick={() => toggleTheme()}
+                style={{ marginTop: 30}}
+            >
+                Trocar tema
+            </button>
         </>
     )
 }

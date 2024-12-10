@@ -1,5 +1,6 @@
 import ThemeContextProvider from "./theme-context";
 import { ToggleComponent } from "./component";
+import { HomeButton } from "../../components/homeButton";
 
 const UseContextExample = () => {
 
@@ -12,7 +13,8 @@ const UseContextExample = () => {
 					elevando o estado das props.
 				</p>
 			</div>
-			<ToggleComponent/>			
+			<ToggleComponent/>		
+			<HomeButton/>
 		</ThemeContextProvider>		
 	);
 };
